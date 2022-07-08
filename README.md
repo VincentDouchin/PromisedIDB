@@ -18,7 +18,7 @@ With PromisedIDB you do not need to manage the different versions of your databa
 const db = await PromisedIDB('databaseName', { store1: 'keyPath1', store2: 'keyPath2', newStore: 'newStoreKeyPath' })
  // the database will be closed, an upgrade is issued and after the stores are created the databse will be returned
  ```
- Since the scope of this project was to create a small and simple wrapper for IndexedDB in order to cache data, indexes and other paraameters (like auto-increment) are not handled by PromisedDB.
+ Since the scope of this project was to create a small and simple wrapper for IndexedDB in order to cache data, indexes and other parameters (like auto-increment) are not handled by PromisedDB.
  
  Example :
  ```js
