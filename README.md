@@ -50,5 +50,5 @@ const getCachedTodo = async (id) => {
 
 const todo = await getCachedTodo(1) // { data: {userId: 1, id: 1, title: 'delectus aut autem', completed: false} }
 
- }
+ 
  ```
